@@ -29,3 +29,48 @@
       sizes="16x16"
       href="assets/BUNNY!!!.avif"
     />
+  <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <div class="flex flex-col h-dvh w-dvw max-h-dvh max-w-dvw">
+      <img
+        src="assets/BUNNY!!!.avif"
+        class="mt-8 max-h-4/5 aspect-[1.51545] m-auto animate-slow-pulse"
+        alt="BUNNY!!!"
+      />
+      <p class="w-full text-center text-2xl">
+        This is my first website!!! :D
+      </p>
+      <div class="w-full mt-8 flex flex-row">
+        <p class="w-full mx-4 text-right text-xs">
+          Bunnies are cool.
+        </p>
+      </div>
+    </div>
+    <style>
+      @keyframes pulse {
+        0% {
+          opacity: 0.8;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0.8;
+        }
+      }
+
+      body {
+        background-color: #EEA9A9;
+        color: #EEA9A9;
+        font-family: Caveat;
+        width: viewport;
+        height: viewport;
+      }
+
+      .animate-slow-pulse {
+        animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
+    </style>
+  </body>
+</html>
