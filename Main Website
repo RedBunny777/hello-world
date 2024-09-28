@@ -11,3 +11,21 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat=swap"
       rel="stylesheet"
+   />
+    <link
+      rel="assets/BUNNY!!!.avif"
+      sizes="180x180"
+      href="assets/BUNNY!.avif"
+    />
+    <link
+      rel="icon"
+      type="image/avif"
+      sizes="32x32"
+      href="assets/BUNNY!!.avif"
+    />
+    <link
+      rel="icon"
+      type="image/avif"
+      sizes="16x16"
+      href="assets/BUNNY!!!.avif"
+    />
